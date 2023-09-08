@@ -10,7 +10,7 @@ def is_friend(a, b):
     b_digits = set(extract_digits(b))
     return bool(a_digits & b_digits)
 
-end = int(input("Enter the end value: "))  # Get user input for the 'end' value
+end = int(input("Enter the end value: "))  
 counter = 0
 
 for i in range(1, end):
